@@ -1,0 +1,90 @@
+/* Color Palette
+#264653 - JAPANESE INDIGO
+#2A9D8F - JUNGLE GREEN
+#E76F51 - LIGHT RED OCHRE
+*/
+
+/* Global styles
+--------------------------------*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+    color: #264653;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+a{
+    color: #2A9D8F;
+}
+a:hover{
+    text-decoration: none;
+}
+h1, h2{
+    font-family: 'Caveat', cursive;
+    font-weight: 400
+}
+h1{
+    font-size: 80px;
+}
+h2{
+    font-size: 40px;
+    margin-top: 0;
+}
+
+.content-wrap{
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+}
+.col-narrow{
+    width: 35%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+    
+}
+.col-width{
+    width: 62%;
+    float: left;
+    min-height: 175px;
+}
+
+/* Header and Footer
+--------------------------------*/
+header, footer {
+    background-color: #E76F51;
+}
+/*header*/
+.profile-image{
+    border-radius: 50%;
+    padding-left: 2.1%;
+}
+header h1, header h2, header p{
+    color: white;
+    margin: 0;
+}
+/*footer*/
+footer{
+    text-align: center;
+}
+.contact-info a {
+    padding: 40px;
+    display: inline-block;
+}
+/* Work Experience
+--------------------------------*/
+.work {
+    background: white;
+}
+/* Education
+--------------------------------*/
+.education{
+    background: #2A9D8F;
+    color: black;
+}
